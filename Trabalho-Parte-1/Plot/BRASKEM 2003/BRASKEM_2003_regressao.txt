@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Retorno_BRASKEM   R-squared:                       0.266
+Model:                            OLS   Adj. R-squared:                  0.260
+Method:                 Least Squares   F-statistic:                     42.36
+Date:                Wed, 14 May 2025   Prob (F-statistic):           1.97e-09
+Time:                        21:10:13   Log-Likelihood:                -295.20
+No. Observations:                 119   AIC:                             594.4
+Df Residuals:                     117   BIC:                             600.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.3426      0.271      1.264      0.209      -0.194       0.879
+Retorno_Bovespa     1.1737      0.180      6.509      0.000       0.817       1.531
+==============================================================================
+Omnibus:                        1.619   Durbin-Watson:                   1.789
+Prob(Omnibus):                  0.445   Jarque-Bera (JB):                1.130
+Skew:                           0.126   Prob(JB):                        0.568
+Kurtosis:                       3.405   Cond. No.                         1.55
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

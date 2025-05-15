@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Retorno_ITAUBANCO   R-squared:                       0.234
+Model:                            OLS   Adj. R-squared:                  0.228
+Method:                 Least Squares   F-statistic:                     37.57
+Date:                Wed, 14 May 2025   Prob (F-statistic):           1.10e-08
+Time:                        21:10:13   Log-Likelihood:                -220.08
+No. Observations:                 125   AIC:                             444.2
+Df Residuals:                     123   BIC:                             449.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.0488      0.135      0.362      0.718      -0.218       0.315
+Retorno_Bovespa     0.6900      0.113      6.129      0.000       0.467       0.913
+==============================================================================
+Omnibus:                        1.755   Durbin-Watson:                   2.099
+Prob(Omnibus):                  0.416   Jarque-Bera (JB):                1.608
+Skew:                           0.277   Prob(JB):                        0.448
+Kurtosis:                       2.959   Cond. No.                         1.48
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

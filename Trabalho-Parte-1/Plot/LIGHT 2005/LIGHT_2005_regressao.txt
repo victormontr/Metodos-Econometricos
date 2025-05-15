@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Retorno_LIGHT   R-squared:                       0.129
+Model:                            OLS   Adj. R-squared:                  0.122
+Method:                 Least Squares   F-statistic:                     17.84
+Date:                Wed, 14 May 2025   Prob (F-statistic):           4.71e-05
+Time:                        21:10:13   Log-Likelihood:                -333.14
+No. Observations:                 122   AIC:                             670.3
+Df Residuals:                     120   BIC:                             675.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -0.0883      0.339     -0.261      0.795      -0.760       0.583
+Retorno_Bovespa     1.0041      0.238      4.224      0.000       0.533       1.475
+==============================================================================
+Omnibus:                       11.032   Durbin-Watson:                   2.598
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               13.790
+Skew:                           0.524   Prob(JB):                      0.00101
+Kurtosis:                       4.271   Cond. No.                         1.43
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

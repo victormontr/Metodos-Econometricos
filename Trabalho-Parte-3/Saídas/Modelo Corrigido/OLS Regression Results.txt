@@ -1,0 +1,30 @@
+=== Modelo Sem Correções ===
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        price_crude_oil   R-squared:                       0.887
+Model:                            OLS   Adj. R-squared:                  0.887
+Method:                 Least Squares   F-statistic:                     1934.
+Date:                Thu, 15 May 2025   Prob (F-statistic):               0.00
+Time:                        13:40:22   Log-Likelihood:                -2009.3
+No. Observations:                2258   AIC:                             4029.
+Df Residuals:                    2253   BIC:                             4057.
+Df Model:                           4                                         
+Covariance Type:                  HC0                                         
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                     0.0209      0.012      1.709      0.087      -0.003       0.045
+price_brent_oil           0.3925      0.036     10.770      0.000       0.321       0.464
+price_uso_etf             0.6711      0.033     20.578      0.000       0.607       0.735
+price_sp500              -0.0468      0.024     -1.968      0.049      -0.093      -0.000
+price_us dollar_index    -0.0728      0.036     -2.025      0.043      -0.143      -0.002
+==============================================================================
+Omnibus:                      983.580   Durbin-Watson:                   2.473
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            58018.529
+Skew:                           1.242   Prob(JB):                         0.00
+Kurtosis:                      27.708   Cond. No.                         6.08
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)

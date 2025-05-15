@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Retorno_CEMIG   R-squared:                       0.546
+Model:                            OLS   Adj. R-squared:                  0.542
+Method:                 Least Squares   F-statistic:                     143.0
+Date:                Wed, 14 May 2025   Prob (F-statistic):           3.97e-22
+Time:                        21:10:13   Log-Likelihood:                -218.77
+No. Observations:                 121   AIC:                             441.5
+Df Residuals:                     119   BIC:                             447.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -0.1056      0.136     -0.775      0.440      -0.375       0.164
+Retorno_Bovespa     1.1688      0.098     11.958      0.000       0.975       1.362
+==============================================================================
+Omnibus:                        3.030   Durbin-Watson:                   1.930
+Prob(Omnibus):                  0.220   Jarque-Bera (JB):                3.117
+Skew:                          -0.063   Prob(JB):                        0.210
+Kurtosis:                       3.776   Cond. No.                         1.42
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

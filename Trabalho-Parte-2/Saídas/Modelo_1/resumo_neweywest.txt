@@ -1,0 +1,40 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        price_crude_oil   R-squared:                       0.888
+Model:                            OLS   Adj. R-squared:                  0.887
+Method:                 Least Squares   F-statistic:                     888.8
+Date:                Wed, 14 May 2025   Prob (F-statistic):               0.00
+Time:                        22:07:37   Log-Likelihood:                 8394.7
+No. Observations:                2258   AIC:                        -1.676e+04
+Df Residuals:                    2243   BIC:                        -1.667e+04
+Df Model:                          14                                         
+Covariance Type:                  HAC                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                     0.0002   8.57e-05      2.405      0.016     3.8e-05       0.000
+price_gold               -0.0291      0.031     -0.938      0.349      -0.090       0.032
+price_palladium           0.0159      0.012      1.329      0.184      -0.008       0.039
+price_platinum            0.0101      0.018      0.561      0.575      -0.025       0.045
+price_rhodium             0.0092      0.012      0.775      0.438      -0.014       0.033
+price_brent_oil           0.3918      0.043      9.051      0.000       0.307       0.477
+price_dow_jones           0.0019      0.075      0.025      0.980      -0.145       0.149
+price_ego                 0.0021      0.007      0.317      0.751      -0.011       0.015
+price_eur/usd          3.366e-05   6.44e-05      0.522      0.602   -9.27e-05       0.000
+price_gdx_etf            -0.0066      0.012     -0.558      0.577      -0.030       0.017
+price_sp500              -0.0593      0.072     -0.825      0.409      -0.200       0.082
+price_us dollar_index    -0.0902      0.042     -2.151      0.032      -0.172      -0.008
+price_uso_etf             0.6710      0.040     16.717      0.000       0.592       0.750
+price_silver           -8.45e-05   7.85e-05     -1.077      0.282      -0.000    6.94e-05
+price_us_bond         -7.829e-05   4.71e-05     -1.662      0.097      -0.000    1.41e-05
+==============================================================================
+Omnibus:                      986.200   Durbin-Watson:                   2.463
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            56900.125
+Skew:                           1.254   Prob(JB):                         0.00
+Kurtosis:                      27.464   Cond. No.                     1.99e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 6 lags and without small sample correction
+[2] The condition number is large, 1.99e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
